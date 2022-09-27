@@ -57,7 +57,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="4dp"
                 android:padding="4dp"
-                android:text="Direccion" />
+                android:text="Dirección" />
             <EditText
                 android:id="@+id/txtDireccion"
                 android:layout_width="match_parent"
@@ -69,7 +69,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="4dp"
                 android:padding="4dp"
-                android:text="Telefono" />
+                android:text="Teléfono" />
             <EditText
                 android:id="@+id/txtTelefono"
                 android:layout_width="match_parent"
@@ -115,17 +115,6 @@
                 android:padding="4dp"
                 android:minHeight="48dp"
                 />
-
-            <TextView
-                android:id="@+id/txtSalida"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="10dp"
-                android:gravity="start|top"
-                android:padding="5dp"
-                android:ems="10"
-                android:text="sin datos" />
-
 
             <Button
                 android:id="@+id/btnRegistrar"
