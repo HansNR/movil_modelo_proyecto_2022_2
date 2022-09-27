@@ -108,8 +108,10 @@ public class ProveedorRegistraActivity extends NewAppCompatActivity {
                 } else if (!e.matches(ValidacionUtil.TELE)){
                     mensajeAlert("Celular son 9 digitos");
                 } else if (!con.matches(ValidacionUtil.NOMBRE)){
-                    mensajeAlert("COntacto es de 3 a 30");
-                }else {
+                    mensajeAlert("Contacto es de 3 a 30");
+                } else if ( spnPais.getSelectedItemPosition() == 0){
+                    mensajeAlert("Seleccione un país");
+                } else {
 
                     String pasi= spnPais.getSelectedItem().toString();
                     String idp= pasi.split(":")[0];
@@ -168,7 +170,7 @@ public class ProveedorRegistraActivity extends NewAppCompatActivity {
             @Override
             public void onResponse(Call<List<Pais>> call, Response<List<Pais>> response) {
                 lstPais = response.body();
-
+                lstpaises.add("[Seleccione País]");
                 for(Pais obj:lstPais){
                     lstpaises.add( obj.getIdPais() + ": " + obj.getNombre());
                 }
