@@ -54,7 +54,7 @@ public class AutorRegistraActivity extends NewAppCompatActivity {
         btnRegistrar = findViewById(R.id.btnRegEdiEnviar);
         serviceGrado = ConnectionRest.getConnection().create(ServiceGrado.class);
 
-        //para el adaptador
+        //para el Adaptador
         adaptador = new ArrayAdapter<String>(this, androidx.appcompat.R.layout.support_simple_spinner_dropdown_item, grados);
 
         spnGrado.setAdapter(adaptador);
