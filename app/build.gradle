@@ -25,6 +25,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    namespace 'com.cibertec.movil_modelo_proyecto_2022_2'
 }
 
 dependencies {

@@ -62,7 +62,7 @@ public class AutorRegistraActivity extends NewAppCompatActivity {
         cargaGrado();
 
     }
-    public void cargaGrado() {
+    public void cargaGrado(){
         Call<List<Grado>> call = serviceGrado.Todos();
         call.enqueue(new Callback<List<Grado>>() {
             @Override

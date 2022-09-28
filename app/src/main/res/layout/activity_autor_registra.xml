@@ -23,7 +23,7 @@
         android:text="@string/txt_registro_de_autor"
         android:textAlignment="center"
         android:textSize="18sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"/>
 
             <TextView
                 android:layout_width="wrap_content"
