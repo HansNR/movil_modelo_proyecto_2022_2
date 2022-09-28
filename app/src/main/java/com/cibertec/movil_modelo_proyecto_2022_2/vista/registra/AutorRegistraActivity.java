@@ -33,7 +33,7 @@ public class AutorRegistraActivity extends NewAppCompatActivity {
     ServiceGrado serviceGrado;
 
     //componentes de la GUI
-    EditText txtId, txtNom,  txtApe, txtFec, txtTel,txtFre, txtestado, txtgrado;
+    EditText txtId, txtNom, txtApe, txtFec, txtTel,txtFre, txtestado, txtgrado;
     Button btnRegistrar;
 
     @Override
